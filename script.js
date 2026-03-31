@@ -18,3 +18,10 @@ function isPalindroma(parola) {
     return false;
   }
 }
+
+// risultato
+if (isPalindroma(parola)) {
+  console.log("È palindroma");
+} else {
+  console.log("NON è palindroma");
+}
