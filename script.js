@@ -69,3 +69,21 @@ else if (scelta === "pari" || scelta === "dispari") {
   console.log("Numero utente:", numeroUtente);
   console.log("Numero computer:", numeroComputer);
   console.log("Somma:", somma);
+    // controllo se la somma è pari o dispari e dichiaro il vincitore
+  if (isPari(somma) && scelta === "pari") {
+    console.log("Hai vinto!");
+  } else if (!isPari(somma) && scelta === "dispari") {
+    console.log("Hai vinto!");
+  } else {
+    console.log("Ha vinto il computer!");
+  }
+
+}
+
+
+// ==========================
+// CASO ERRORE
+// ==========================
+else {
+  console.log("Scelta non valida. Scrivi palindroma, pari oppure dispari.");
+}
