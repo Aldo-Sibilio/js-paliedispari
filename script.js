@@ -59,4 +59,13 @@ else if (scelta === "pari" || scelta === "dispari") {
     }
   }
 
-}
+  // genero il numero del computer
+  const numeroComputer = generaNumeroRandom();
+
+  // sommo i due numeri
+  const somma = numeroUtente + numeroComputer;
+
+  // stampo i valori per controllare
+  console.log("Numero utente:", numeroUtente);
+  console.log("Numero computer:", numeroComputer);
+  console.log("Somma:", somma);
